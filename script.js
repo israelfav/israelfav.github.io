@@ -1,8 +1,10 @@
 function navReveal() { 
-    document.getElementById('menu').style.right = "0"
+    document.getElementById('menu').style.right = "0";
+    document.getElementById('menu').style.display = "flex";
 }
 function navHide() { 
     document.getElementById('menu').style.right = "-500px"
+    document.getElementById('menu').style.display = "none";
 }
 function galleryOpen() {
     if(document.getElementById('open').style.display == "grid") {
