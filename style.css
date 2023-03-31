@@ -370,7 +370,7 @@ section a img{
     }
     .sideBar{
         background-color: aqua;
-        display: flex;
+        display: none;
         flex-direction: column;
         padding-left: 15px;
         line-height: 50px;
